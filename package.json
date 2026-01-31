@@ -14,9 +14,10 @@
     "curve25519-js": "^0.0.4",
     "protobufjs": "6.8.8"
   },
-  "files": [
-    "src/*"
-  ],
+  "files": ["index.js", "install.js", "src"],
+  "scripts": {
+    "postinstall": "node install.js"
+  },
   "devDependencies": {
     "eslint": "6.0.1"
   }
